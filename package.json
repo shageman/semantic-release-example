@@ -53,5 +53,8 @@
     "travis-deploy-once": "^5.0.11",
     "utf-8-validate": "^5.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "release": {
+    "branches": ["origin/master"]
+  }
 }
