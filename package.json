@@ -58,7 +58,7 @@
     "branches": [
       "master", "origin\/master"
     ],
-    "plugins": [
+    "plugins":  [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       [
