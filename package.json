@@ -55,16 +55,23 @@
   },
   "dependencies": {},
   "release": {
-    "branches": ["master"],
+    "branches": [
+      "master"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      ["@semantic-release/github", {
-        "assets": [
-          {"path": "**/*", "label": "All files"}
-        ]
-      }]
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "**/*",
+              "label": "All files"
+            }
+          ]
+        }
+      ]
     ]
-
   }
 }
