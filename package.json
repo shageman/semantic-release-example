@@ -56,7 +56,7 @@
   "dependencies": {},
   "release": {
     "branches": [
-      "master"
+      "master", "origin/master"
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
